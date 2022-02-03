@@ -1,0 +1,137 @@
+h1 {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;/* 100% == 16px, 500% = 5 * 16px  em = 16px*/
+  /* position: relative;
+  left: 45%; */
+  /* margin-left: 50%; */
+  /* line-height: 2 */
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+  /* font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif; */
+  font-family: 'Merriweather', serif;
+}
+
+.topContainer {
+  position: relative;
+  background-color: #F7ECDE;
+  padding: 50px;
+}
+
+.middleContainer {
+  background-color: #BF9270;
+  position: relative;
+  padding: 25px;
+}
+
+.bottomContainer {
+  background-color: #FA4EAB;
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.topCloudImage {
+  position: absolute;
+  top: 25px;
+  right: 30%;
+}
+
+.bottomCloudImage {
+  position: absolute;
+  left: 25%;
+  top: 150px;
+  /* margin: 0 auto 0 auto;  */
+  /* margin: 0 auto; */
+  /* visibility: hidden; */
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+/* .inlineP{
+  display: inline;
+}
+
+inlinePBold {
+  display: inline;
+  font-weight: bold;
+
+} */
+.PBold {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+.h2withImage {
+  display: inline-block;
+}
+
+.inlinePng {
+  display: inline-block;
+}
+.biggerPar {
+  font-size: 2.25rem;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  width: 30%;
+  border-color: #ffcccc;
+  border-width: 5px;
+  margin-bottom: 0px;
+}
+
+.btn {
+  background: #6391b0;
+  background-image: -webkit-linear-gradient(top, #6391b0, #07598c);
+  background-image: -moz-linear-gradient(top, #6391b0, #07598c);
+  background-image: -ms-linear-gradient(top, #6391b0, #07598c);
+  background-image: -o-linear-gradient(top, #6391b0, #07598c);
+  background-image: linear-gradient(to bottom, #6391b0, #07598c);
+  -webkit-border-radius: 24;
+  -moz-border-radius: 24;
+  border-radius: 18px;
+  font-family: Georgia;
+  color: #852e85;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  border: solid #3982b0 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1f8f1f;
+  text-decoration: none;
+}
+
+.me {
+  width: 100px;
+   height: 200px;
+   border-radius: 100%;
+}
+
+.footer-link{
+  text-decoration: none;
+  padding: 7px;
+
+}
+
+.footer-link:hover{
+  color: white;
+}
